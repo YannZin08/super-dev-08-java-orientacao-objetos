@@ -1,11 +1,12 @@
 import javax.swing.JOptionPane;
 
 public class CarroExecutor {
+    public void executar(){
     Carro uno =  new Carro();
     uno.motor = 3.5;
     uno.modelo = "Uno com escada";
     uno.cor = "Claro";
-    uno.isEletrico = "false";
+    uno.isEletrico = false;
     uno.marca = "Fiat";
     uno.aro = 14;
 
@@ -42,4 +43,4 @@ public class CarroExecutor {
         "Marca: " + carro1.marca + "\n" +
         "Aro: " + carro1.aro);
 }
-
+}
