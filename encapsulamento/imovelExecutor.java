@@ -2,22 +2,24 @@ package encapsulamento;
 
 import javax.swing.JOptionPane;
 
-public class imovelExecutor{
-    public void executor(){
-    Imovel imovelLoriLori = new Imovel();
-    imovelLoriLori.getQuantidadeQuadros(quantidadeQuartos:5);
-    imovelLoriLori.endereco = "Rua das Mações";
-    imovelLoriLori.possuiGaragem = true;
-    imovelLoriLori.quantidadeBanheiros = 5;
-    imovelLoriLori.metragem = 150;
+public class ImovelExecutor {
 
-    JOptionPane.showMessageDialog(null,
-    "Imovel" + imovelLoriLori. endereco +
-    "\nQuantidade Quartos: " + imovelLoriLori.getQuantidadeQuartos() +
-    "\nMetragem: " + imovelLoriLori.metragem +
-    "\nQuantidade Banheiro: " + imovelLoriLori.quantidadeBanheiros +
-    "\nPossui Garagem: " + imovelLoriLori.possuiGaragem
-    );
+    public void executar() {
 
-    } 
+        Imovel imovelLoriLori = new Imovel();
+
+        imovelLoriLori.setQuantidadeQuartos(5);
+        imovelLoriLori.setQuantidadeBanheiros(5);
+        imovelLoriLori.setMetragem(150);
+        imovelLoriLori.setPossuiGaragem(true);
+        imovelLoriLori.setEndereco("Rua das Maçãs");
+
+        JOptionPane.showMessageDialog(
+                null,
+                "Endereço: " + imovelLoriLori.getEndereco() +
+                        "\nQuantidade de Quartos: " + imovelLoriLori.getQuantidadeQuartos() +
+                        "\nQuantidade de Banheiros: " + imovelLoriLori.getQuantidadeBanheiros() +
+                        "\nMetragem: " + imovelLoriLori.getMetragem() + " m²" +
+                        "\nPossui Garagem: " + imovelLoriLori.isPossuiGaragem());
+    }
 }
