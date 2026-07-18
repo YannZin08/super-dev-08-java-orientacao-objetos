@@ -25,9 +25,6 @@ public class Carro {
     public Motor getMotor(){
         return motor;
     }
-    public Motor getMotor(){
-        return motor;
-    }
     /*
     Observação: para atributos do tipo boolean, por convenção em Java o gtter é isEscada()
     em vez de getEscada().

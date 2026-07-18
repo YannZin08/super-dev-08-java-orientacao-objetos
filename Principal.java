@@ -1,7 +1,8 @@
-public class Principal{
+import composicao.Executor;
 
-public static void main(String[] args){
-    FabricanteExecutor executor = new FabricanteExecutor();
-    executor.excutar();
-}
+public class Principal {
+    public static void main(String[] args) {
+        Executor executor = new Executor();
+        executor.executar();
+    }
 }

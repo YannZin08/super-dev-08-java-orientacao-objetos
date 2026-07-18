@@ -30,7 +30,7 @@ public class Pessoa {
     }
 
     public void setIdade(int idade) {
-        this.idade = idae;
+        this.idade = idade;
     }
 
     // Getter e Setter de endereco

@@ -17,7 +17,7 @@ public class Endereco {
         return numero;
     }
     public void setNumero(String numero) {
-        this.numero
+        this.numero = numero;
     }
 
 }

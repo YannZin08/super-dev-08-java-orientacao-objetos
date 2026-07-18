@@ -20,6 +20,6 @@ public class Motor {
 
     @Override
 public String toString(){
-    return "Motor:\nCilindradas: " + cilindradas + "\nCombustivel: " combustivel;
+    return "Motor:\nCilindradas: " + cilindradas + "\nCombustivel: " + combustivel;
 }
 }
